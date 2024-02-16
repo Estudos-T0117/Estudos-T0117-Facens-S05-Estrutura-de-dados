@@ -10,10 +10,14 @@ cd /path/to/your/project
 
 ## Step 2: Creating a Virtual Environment
 
-A virtual environment is like an isolated container where you can keep all the dependencies for your specific project. This way, different projects won’t interfere with each other. To create a virtual environment named `env`, use the following command:
+A virtual environment is like an isolated container where you can keep all the dependencies for your specific project. This way, different projects won’t interfere with each other (as you create a different enviroment for each project, some dependencies of one won't interfere with the other). To create a virtual environment named `env`, use the following command:
 
 ```bash
 python3 -m venv env
+
+or
+
+python -m venv env
 ```
 
 ## Step 3: Activating the Virtual Environment

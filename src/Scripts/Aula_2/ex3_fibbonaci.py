@@ -1,22 +1,20 @@
 """
-Exercício 3: Fibonacci
-Escreva uma função recursiva que retorna o n-ésimo número de
-Fibonacci. Lembre-se de que a sequência de Fibonacci é
-definida como fib(n) = fib(n-1) + fib(n-2) com fib(0) = 0 e fib(1) = 1.
+Exercise 3: Fibonacci
+Write a recursive function that returns the nth number of
+Fibonacci. Remember that the Fibonacci sequence is
+defined as fib(n) = fib(n-1) + fib(n-2) with fib(0) = 0 and fib(1) = 1.
 """
-
 def fibonacci(n):
-    
+    """
+    This function return the number for the inputed fibonnaci sequence
+    """
     if n <= 0:
-        return "O valor de entrada deve ser um número inteiro positivo."
-    elif n == 1:
+        return "The input value must be a positive integer."
+    if n == 1:
         return 0
-    elif n == 2:
+    if n == 2:
         return 1
-    else:
-        print(fibonacci(n-1) + fibonacci(n-2))
-        return fibonacci(n-1) + fibonacci(n-2)
+    return fibonacci(n-1) + fibonacci(n-2)
 
-fib_inp = int(input("Digite o número para calcular sua sequência de fibbonaci: "))
-
-fibonacci(fib_inp)
+fib_inp = int(input("Enter the number to return the position of the Fibonacci sequence: "))
+print(fibonacci(fib_inp))

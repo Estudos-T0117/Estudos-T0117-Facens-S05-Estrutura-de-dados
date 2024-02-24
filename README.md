@@ -1,13 +1,19 @@
-[project-name]: Facens-S05-Estrutura-de-dados
-
 # Facens-S05-Estrutura-de-dados
 
-| <img src="https://github.com/Estudos-T0117/Estudos-T0117-Facens-S05-Estrutura-de-dados/assets/104631043/25357703-fe96-49f7-be26-3c9217691352" alt="Logo" width="250" style="margin-right: 10rem;"> | [Facens-S05-Estrutura-de-dados](#Facens-S05-Estrutura-de-dados)<br>[Description](#description)<br>[Getting Started](#getting-started)<br>[Prerequisites](#prerequisites)<br>[Installing Facens-S05-Estrutura-de-dados](#installing-Facens-S05-Estrutura-de-dados)<br>[Contributing to Facens-S05-Estrutura-de-dados](#contributing-to-Facens-S05-Estrutura-de-dados)<br>[Contact](#contact)<br>[License](#license) 	|
+| <img src="https://github.com/Estudos-T0117/Estudos-T0117-Facens-S05-Estrutura-de-dados/assets/104631043/25357703-fe96-49f7-be26-3c9217691352" alt="Logo" width="250" style="margin-right: 10rem;"> | [Facens-S05-Estrutura-de-dados](#Facens-S05-Estrutura-de-dados)<br>[Description](#description)<br>[Getting Started](#getting-started)<br>[Prerequisites](#prerequisites)<br>[Installing Facens-S05-Estrutura-de-dados](#installing-Facens-S05-Estrutura-de-dados)<br>[Contributing to Facens-S05-Estrutura-de-dados](#contributing-to-Facens-S05-Estrutura-de-dados)<br>[Contact](#contact)<br>[License](#license) |
 |---|---|
 
 ## Description
 
-`Facens-S05-Estrutura-de-dados` is an Angular-based application designed for a unique comunity: Developer cookers. The specific design for cooking recipes is the main focus of this application, writing and searching your recipes in a stylized enviroment for programmers.
+Welcome to `Facens-S05-Estrutura-de-dados`, a project dedicated to learning data structures using Python.
+
+This project is organized into two main sections:
+
+1. `Docs`: This section contains valuable documentation that promotes better Python programming practices.
+
+2. `Scripts`: This section is divided into lessons. Each lesson includes `exercises` along with their respective solutions, which are provided in the comments for easy reference.
+
+I hope you find this project useful and informative!
 
 ## Getting Started
 
@@ -17,7 +23,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `Node.js` and `npm`
+- You have installed `3.12.1` python version (the latest when this project was made)
+- Check the requirements.txt and initialize your enviroment, you can follow `How to use venv and requirements.md` file inside `docs` section for better use of this project.
 
 ### Installing Facens-S05-Estrutura-de-dados
 
@@ -38,7 +45,7 @@ To install Facens-S05-Estrutura-de-dados, follow these steps:
 3. Install the dependencies
 
     ```bash
-    npm install
+    pip install -r requirements.txt
     ```
 
 ## Contributing to Facens-S05-Estrutura-de-dados
@@ -83,10 +90,9 @@ To contribute in the project, follow these steps:
 
 ## Contact
 
-If you want to contact us, you can reach us at <tales.a.s.furlan@gmail.com> and <joao.oliv.victor@gmail.com>.
+If you want to contact us, you can reach us at <tales.a.s.furlan@gmail.com>.
 Please, if you want to help in a specific project, include the repository name (in this case, `Facens-S05-Estrutura-de-dados`) at the title of your email and your github username in the message, as well as the assistance you want to provide.
 
 ## License
 
 This project uses the following license: `MIT`.
-#
